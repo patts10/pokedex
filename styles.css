@@ -1,0 +1,41 @@
+
+
+.pokedex, .inputSearch {
+  margin: 50px;
+}
+.pokeImg {
+  background-color: #20c997;
+  position: fixed;
+  top: 302px;
+  left: 93px;
+  width: 220px;
+  height: 148px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.pokeName {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.details {
+  margin-top:-5px;
+  margin-bottom: 0;
+}
+
+.abilitiesList {
+  margin: -5px;
+}
+
+.pokeDetails {
+  background-color: white;
+  border-radius: 10px;
+  height: 95px;
+  width: 205px;
+  position: fixed;
+  top: 313px;
+  left: 420px;
+  padding: 0 5px;
+  border: 1px solid #000;
+}
