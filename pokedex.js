@@ -12,7 +12,6 @@
       return data.json();
     }).then( (info) => {
       pokeInfo = info;
-      console.log(pokeInfo);
 
 
       const fetchPromises = pokeInfo.results.map( e => {
@@ -50,14 +49,7 @@
     searchBtn.onclick = (() => {
         const pokemonInput = inputSearch.value;
         const url = 'https://pokeapi.co/api/v2/pokemon/?offset=100&limit=1118';
-        console.log('++++++++');
-        console.log(pokemonInput);
-        console.log(pokeInfo);
-        // pokeInfo.forEach(pokemon => {
-        //   if(pokemon.name === pokemonInput)
-        //   return pokemonList(url, pokemonInput);
-        //   console.log(pokemon);
-        // });
+        
         pokemonList(pokeApi, pokemonInput);
         inputSearch.value = '';
       })
